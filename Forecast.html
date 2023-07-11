@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherDaddy_forecast</title>
+    <link rel="stylesheet" href="forecast_style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="responsive_forecast_style.css">
+    <script src="https://kit.fontawesome.com/635f9749a9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/container1_umbrella.png" type="image/icon type">
+</head>
+<body>
+    <div class="container1">
+        <div id="logo">
+            <img src="assets/Orignal_assets/WeatherDaddy_logo.png" alt="">
+        </div>
+        <div class="icon" id="icon-1">
+            <a href="index.html"><i class="fa-solid fa-cloud-sun-rain" style="color: #81858f;"></i></a>
+            <p><a href="index.html">Weather</a></p>
+        </div>
+        <div class="forecast_icon" id="icon-2">
+            <i class="fa-solid fa-map" style="color: #c4cad3;"></i>
+            <p>Forecast</p>
+        </div>
+        <div class="Developer_icon" id="icon-3">
+            <a href="developer_index.html">
+            <i class="fa-solid fa-hand-holding-heart" style="color: #81858f;"></i>
+            <p>Developer</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Container2 -->
+
+    <div class="container2">
+
+        <!-- Search Bar  (container2 box-1)-->
+
+        <div class="search">
+            <input type="text" placeholder="Search by city" spellcheck="false" id="search_value">
+            <button id="search_button">
+                <i class="fa-solid fa-magnifying-glass" style="color: #c4cad3;"></i>
+            </button>
+        </div>
+
+        <!-- 4-Day Forecast Main div   -->
+
+        <div class="day_tab">
+                <div class="Day1_forecast Day1_forecast_background">
+                    <div>
+                        <img src="assets/Orignal_assets/Sunny.png" alt="" id="java_core_image1">
+                    </div>    
+                    <div class="day1_city">
+                        <h1><span id="java_Date0">04</span>
+                            <span id="java_Month0">Mar</span>
+                        </h1>
+                        <p>00:00</p>
+                    </div>
+                    <div class="day1_temp">
+                        <p id="java_forecast_temp0"><i class="fa-solid fa-circle-notch fa-spin"></i></p>
+                    </div>
+                </div>
+                <div class="Day2_forecast Day2_forecast_background">
+                    <div>
+                        <img src="assets/Orignal_assets/Sunny.png" alt="" id="java_core_image2">
+                    </div>    
+                    <div class="day2_city">
+                        <h1><span id="java_Date1">27</span>
+                            <span id="java_Month1">Mar</span>
+                        </h1>
+                        <p>00:00</p>
+                    </div>
+                    <div class="day2_temp">
+                        <p id="java_forecast_temp1"><i class="fa-solid fa-circle-notch fa-spin"></i></p>
+                    </div>
+                </div>
+                <div class="Day3_forecast Day3_forecast_background">
+                    <div>
+                        <img src="assets/Orignal_assets/Sunny.png" alt="" id="java_core_image3">
+                    </div>    
+                    <div class="day3_city">
+                        <h1><span id="java_Date2">27</span>
+                            <span id="java_Month2">Mar</span>
+                        </h1>
+                        <p>00:00</p>
+                    </div>
+                    <div class="day3_temp">
+                        <p id="java_forecast_temp2"><i class="fa-solid fa-circle-notch fa-spin"></i></p>
+                    </div>
+                </div>
+                <div class="error_message">
+                    <p>Error fetching details of this city. Try another.</p>
+                </div>
+                <!-- <div class="Day4_forecast">
+                    <div>
+                        <img src="assets/Orignal_assets/Sunny.png" alt="">
+                    </div>    
+                    <div class="day4_city">
+                        <h1><span id="java_Date2">04</span>
+                            <span id="java_Month2">Mar</span>
+                        </h1>
+                        <p>10:23</p>
+                    </div>
+                    <div class="day4_temp">
+                        <p>31°</p>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+    <div class="container3">
+        <div class="city">
+            <div class="temperature">
+                <div>
+                    <h2 id="java_city_name">----</h2>
+                    <p id="java_region_country">--</p>
+                </div>
+                <h1 id="java_head_temperature"><i class="fa-solid fa-circle-notch fa-spin"></i></h1>
+            </div>
+            <div class="weather_image">
+                <img src="assets/Orignal_assets/Partly_Cloudy.png" id="head_weather_image" alt="">
+            </div>
+        </div>
+        <div class="day_forecast_main_div">
+            <div class="day_forecast_secondary1_div">
+            <div class="day_forcast">
+                <p>6:00 AM</p>
+                <img id="day_forcast_image1" src="assets/Orignal_assets/Cloudy.png">
+                <h2 id="java_temp_6am"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+            </div>
+            <div class="day_forcast">
+                <p>9:00 AM</p>
+                <img id="day_forcast_image2" src="assets/Orignal_assets/Cloudy.png">
+                <h2 id="java_temp_9am"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+            </div>
+            <div class="day_forcast">
+                <p>12:00 PM</p>
+                <img id="day_forcast_image3" src="assets/Orignal_assets/Partly_Cloudy.png">
+                <h2 id="java_temp_12Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+            </div>
+        </div>
+        <div class="day_forecast_secondary2_div">
+            <div class="day_forcast">
+                <p>3:00 PM</p>
+                <img id="day_forcast_image4" src="assets/Orignal_assets/Partly_Cloudy.png">
+                <h2 id="java_temp_3Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+            </div>
+            <div class="day_forcast">
+                <p>6:00 PM</p>
+                <img id="day_forcast_image5" src="assets/Orignal_assets/Sunny.png">
+                <h2 id="java_temp_6Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+            </div>
+            <div class="day_forcast" id="day_forcast_last">
+                <p>9:00 PM</p>
+                <img id="day_forcast_image6" src="assets/Orignal_assets/rainy.png">
+                <h2 id="java_temp_9Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+            </div>
+        </div>
+        <p id="ip_place"></p>
+        </div>
+    </div>
+    <!-- <i class="fa-solid fa-circle-notch fa-spin"></i> -->
+    <script src="forecast_script.js"></script>
+</body>
+</html>

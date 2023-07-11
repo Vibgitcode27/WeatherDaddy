@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherDaddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1252px)" href="responsive_style.css">
+    <link rel="stylesheet" media="screen and (max-width: 686px)" href="responsive2_style.css">
+    <script src="https://kit.fontawesome.com/635f9749a9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/Orignal_assets/WeatherDaddy_logo.png" type="image/icon type">
+</head>
+<body>
+    <div class="container1">
+        <div id="logo">
+            <img src="assets/Orignal_assets/WeatherDaddy_logo.png" alt="">
+        </div>
+        <div class="icon" id="icon-1">
+            <i class="fa-solid fa-cloud-sun-rain" style="color: #c4cad3;"></i>
+            <p>Weather</p>
+        </div>
+        <div class="forecast_icon" id="icon-2">
+            <a href="Forecast.html">
+            <i class="fa-solid fa-map" style="color: #81858f;"></i>
+            <p>Forecast</p>
+            </a>
+        </div>
+        <div class="Developer_icon" id="icon-3">
+            <a href="developer_index.html">
+            <i class="fa-solid fa-hand-holding-heart" style="color: #81858f;"></i>
+            <p>Developer</p>
+            </a>
+        </div>
+    </div>
+
+    <!--  Container2  -->
+ 
+    <div class="container2">
+
+        <!-- Search Bar  (container2 box-1)-->
+
+        <div class="search">
+            <input type="text" placeholder="Search by city" spellcheck="false" id="search_value">
+            <button id="search_button">
+                <i class="fa-solid fa-magnifying-glass" style="color: #c4cad3;"></i>
+            </button>
+        </div>
+
+        <!-- City and temperature (container2 box-2) -->
+
+        <div class="city">
+            <div class="temperature">
+                <div>
+                    <h2 id="city_name"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                    <p id="region_country">----</p>
+                </div>
+                <h1 id="head_temperature">----</h1>
+            </div>
+            <div class="weather_image">
+                <img src="assets/Orignal_assets/Partly_Cloudy.png" id="head_weather_image" alt="">
+            </div>
+        </div>
+
+        <!-- Weather Forecast Day-0 (container2 box-3) -->
+
+        <div class="weather">
+            <div class="forcast">
+                <p>TODAY'S FORCAST</p>
+            </div>
+            <div class="forcast_value">
+                <div class="day_forcast">
+                    <p>6:00 AM</p>
+                    <img id="day_forcast_image1" src="assets/Orignal_assets/Cloudy.png">
+                    <h2 id="temp_6am"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                </div>
+                <div class="day_forcast">
+                    <p>9:00 AM</p>
+                    <img id="day_forcast_image2" src="assets/Orignal_assets/Cloudy.png">
+                    <h2 id="temp_9am"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                </div>
+                <div class="day_forcast">
+                    <p>12:00 PM</p>
+                    <img id="day_forcast_image3" src="assets/Orignal_assets/Partly_Cloudy.png">
+                    <h2 id="temp_12Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                </div>
+                <div class="day_forcast">
+                    <p>3:00 PM</p>
+                    <img id="day_forcast_image4" src="assets/Orignal_assets/Partly_Cloudy.png">
+                    <h2 id="temp_3Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                </div>
+                <div class="day_forcast">
+                    <p>6:00 PM</p>
+                    <img id="day_forcast_image5" src="assets/Orignal_assets/Sunny.png">
+                    <h2 id="temp_6Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                </div>
+                <div class="day_forcast" id="day_forcast_last">
+                    <p>9:00 PM</p>
+                    <img id="day_forcast_image6" src="assets/Orignal_assets/rainy.png">
+                    <h2 id="temp_9Pm"><i class="fa-solid fa-circle-notch fa-spin"></i></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wind Speed and Misc (container2 box-4) -->
+
+        <div class="wind">
+            <div class="wind-p forcast">
+                <p>AIR CONDITIONS</p>
+            </div>
+            <div class="wind-value">
+                <div class = "wind-value1" id="wind-value1">
+                    <div class="wind-value1-value">
+                        <span>
+                            <i class="fa-solid fa-temperature-half" style="color: #9399a2"></i>
+                            <p>Real Feel</p>
+                        </span>
+                        <p class="wind-value1-value-p" id="real_feel">30°</p>
+                    </div>
+                    <div class="wind-value1-value">
+                        <span>
+                            <i class="fa-solid fa-droplet" style="color: #9399a2"></i>
+                            <p>Chance of rain</p>
+                        </span>
+                        <p class="wind-value1-value-p" id="rain_probablity">50%</p>
+                    </div>
+                </div>
+                <div class = "wind-value1" id="wind-value2">
+                    <div class="wind-value2-value">
+                        <span>                        
+                            <i class="fa-solid fa-wind" style="color: #9399a2"></i>
+                            <p>Wind</p>
+                        </span>
+                        <p class="wind-value2-value-p" id="wind_speed">0.2 km/h</p>
+                    </div>
+                    <div class="wind-value2-value">
+                        <span>
+                            <i class="fa-sharp fa-solid fa-sun" style="color: #9399a2"></i>
+                            <p>UV Index</p>
+                        </span>
+                        <p class="wind-value2-value-p"id = "UV_index">3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="error_message">
+            <p>Error fetching details of this city. Try another.</p>
+        </div>
+            <p id="ip_place" style="color: #202b3b;"></p>
+            <div class="Clock">
+                <h1 id="java_Time">--:--</h1>
+                <div class="date_and_day">
+                    <span id="java_Date">27</span>
+                    <span id="java_Month">Mar</span>
+                </div>
+                <p id="java_TimeZone">TimeZone</p>
+            </div>
+            <div class="astro">
+                <div class="astro-p forcast">
+                    <p>Astro</p>
+                </div>
+                <div class="astro-value">
+                    <div class = "astro-value1" id="astro-value1">
+                        <div class="astro-value1-value">
+                            <span>
+                                <i class="fa-solid fa-temperature-arrow-up" style="color: #9399a2"></i>
+                                <p>Maximum temp.</p>
+                            </span>
+                            <p class="astro-value1-value-p" id="java_maxtemp">--</p>
+                        </div>
+                        <div class="astro-value1-value">
+                            <span>
+                                <span id="sunrise_adjust">
+                                    <i class="fa-solid fa-caret-up fa-xs" style="color: #9399a2" id="sunrise1"></i>
+                                    <i class="fa-sharp fa-solid fa-sun" style="color: #9399a2"></i>
+                                    </span>
+                                <p>Sun Rise</p>
+                            </span>
+                            <p class="astro-value1-value-p" id="java_sunrise">00:00</p>
+                        </div>
+                    </div>
+                    <div class = "astro-value1" id="astro-value2">
+                        <div class="astro-value2-value">
+                            <span>                
+                                <i class="fa-solid fa-temperature-arrow-down" style="color: #9399a2"></i>        
+                                <p>Minimum temp.</p>
+                            </span>
+                            <p class="astro-value2-value-p" id="java_mintemp">--</p>
+                        </div>
+                        <div class="astro-value2-value">
+                            <span>
+                                <span id="sunset_adjust">
+                                <i class="fa-sharp fa-solid fa-sun" style="color: #9399a2"></i>
+                                <i class="fa-solid fa-caret-up fa-rotate-180 fa-xs" style="color: #8d9096;" id="sunset1"></i>
+                                </span>
+                                <p>Sun Set</p>
+                            </span>
+                            <p class="astro-value2-value-p"id = "java_sunset">00:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

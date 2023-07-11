@@ -1,0 +1,504 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container1
+{
+    background-color: #202b3b;
+    width: 1200px;
+    margin : 25px 25px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+}
+#umberlla img{
+    width: auto;
+    margin-left: 80px;
+    margin-top: 25px;
+    height: 40px;
+}
+#icon-1{
+margin-top: 20px;
+margin-left: 300px;
+}
+#icon-1 i{
+margin-left: 25px;
+}
+#icon-1 p{
+color: #c4cad3;
+margin-left: 5px;
+margin-top: 10px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+}
+
+#icon-2{
+margin-top: 20px;
+margin-left: 80px;
+}
+#icon-2 i{
+margin-left: 25px;
+}
+#icon-2 p{
+color: #81858f;
+margin-left: 2px;
+margin-top: 10px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+}
+#icon-3{
+margin-top: 20px;
+margin-left: 80px;
+}
+#icon-3 i{
+margin-left: 25px;
+}
+#icon-3 p{
+color: #81858f;
+margin-top: 10px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+}
+
+
+/* -------------------------         -----------------------------------
+                            Container2
+----------------------------         ---------------------------------- */
+
+/* Container 2 */
+
+.container2{
+    /* background-color: #202b3b; */
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin : 25px 25px;
+    height: 650px;
+    border-radius: 20px;
+}
+.search
+{
+    background-color: #202b3b;
+    border-radius: 14px;
+}
+.search input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background: transparent;
+    height: 60px;
+    padding-left: 80px;
+    width: 700px;
+    color: #c4cad3;
+    font-size: 14px;
+    line-height: 21px;
+}
+.search input::placeholder{
+    color: #8d8d8d;
+    font-size: 20px;
+}
+.search button
+{
+    border: 0;
+    outline: 0;
+    background-color: #202b3b;
+    cursor: pointer;
+}
+.search button i
+{
+    margin-left: 390px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.city
+{
+    display: flex;
+    width: 1200px;
+    height: 350px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.temperature
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+.temperature div
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #ebf0f9;
+}
+.temperature div h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight:900;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.temperature div p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #9399a2;
+    margin-top: 10px;
+}
+.temperature h1
+{
+    margin-bottom: 22px;
+    margin-left: 70px;
+    color: #ebf0f9;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.weather_image img
+{
+    width: auto;
+    margin-top: 12px;
+    margin-right: 130px;
+    height: 250px;
+}
+.weather
+{   
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: #202b3b;
+}
+.forcast
+{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: #9399a2;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.forcast_value
+{
+    border-radius: 20px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.day_forcast
+{
+    margin-left: 25px;
+    border-right:2px solid #f2f2f213;
+    width: 300px;
+}
+#day_forcast_last
+{
+    border: none;
+}
+.day_forcast img
+{
+    width: auto;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.day_forcast h2
+{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #ebf0f9;
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.day_forcast p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #9399a2;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.wind
+{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #202b3b;
+}
+.wind-value
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    border-radius: 20px;
+}
+.wind-value1
+{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+#wind-value1
+{
+    margin-left: 170px;
+}
+#wind-value2
+{
+    margin-right: 30px;
+}
+.wind-value1-value
+{
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 70px;
+}
+.wind-value1-value-p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c4cad3;
+}  
+.wind-value1-value span
+{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.wind-value1-value span p
+{
+    color: #9399a2;
+    margin-left: 20px;
+}
+.wind-value1-value span i
+{
+    font-size: 20px;
+    color: #9399a2;
+}
+.wind-value2-value
+{
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 70px;
+}
+.wind-value2-value-p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c4cad3;
+}   
+.wind-value2-value span
+{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.wind-value2-value span p
+{
+    color: #9399a2;
+    margin-left: 20px;
+}
+.wind-value2-value span i
+{
+    font-size: 20px;
+    color: #9399a2;
+}
+
+/* -------------------------         -----------------------------------
+                            Container3
+----------------------------         ---------------------------------- */
+
+/* Container 3 Astro  */
+.container3
+{
+    width: 1200px;
+    margin-left: 15px;
+}
+.astro
+{
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    width: 1100px;
+    border-radius: 15px;
+    border-top: 2px solid #f2f2f213;
+    
+}
+.astro-value
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+    border-radius: 20px;
+}
+.astro-value1
+{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+#astro-value1
+{
+    margin-left: 225px;
+}
+#astro-value2
+{
+    margin-right: 5px;
+}
+.astro-value1-value
+{
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 140px;
+}
+.astro-value1-value-p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c4cad3;
+}  
+.astro-value1-value span
+{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.astro-value1-value span p
+{
+    color: #9399a2;
+    margin-left: 20px;
+}
+.astro-value1-value span i
+{
+    font-size: 20px;
+    color: #9399a2;
+}
+.astro-value2-value
+{
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 140px;
+}
+#sunset_adjust
+{
+    display: flex; 
+    flex-direction: column;
+}
+#sunrise_adjust
+{
+    display: flex; 
+    flex-direction: column;
+}
+#sunrise1
+{
+    margin-bottom: 4px;
+    margin-left: 3px;
+}
+#sunset1
+{
+    margin-top: 4px;
+    margin-right: 3px;
+}
+.astro-value2-value-p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c4cad3;
+}   
+.astro-value2-value span
+{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.astro-value2-value span p
+{
+    color: #9399a2;
+    margin-left: 20px;
+}
+.astro-value2-value span i
+{
+    font-size: 20px;
+    color: #9399a2;
+}
+
+/* // Clock */
+.Clock
+{
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 60px;
+    margin-left: 400px;   
+}
+.Clock h1
+{
+    color: rgb(255, 227, 103);
+    margin-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.date_and_day
+{
+    margin-top: -35px;
+    margin-left: 155px;
+}
+.Clock span
+{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #9399a2;
+}
+.Clock p
+{
+    margin-left: 130;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 18vh;
+    color: #9399a2;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}

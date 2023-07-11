@@ -17,7 +17,7 @@ Introducing a weather website featuring a captivating, user-friendly interface t
 
 ## Demo
 
-Web:
-https://clipchamp.com/watch/fjnwksZVQ4j
-Youtube:
+Web:-
+https://clipchamp.com/watch/fjnwksZVQ4j-
+Youtube:-
 https://www.youtube.com/watch?v=Lr11g6kp5ps

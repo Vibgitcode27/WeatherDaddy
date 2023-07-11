@@ -2,7 +2,8 @@
 # Weather Daddy
 
 Introducing a weather website featuring a captivating, user-friendly interface that sets it apart from the competition, while delivering precise and reliable weather data.
-![Uploading Add a heading.png…]()
+
+![Alt text](https://github.com/Vibgitcode27/WeatherDaddy/blob/main/assets/Orignal_assets/Thumbnail.png)
 
 ## Features
 

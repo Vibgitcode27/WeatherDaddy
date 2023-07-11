@@ -2,12 +2,7 @@
 # Weather Daddy
 
 Introducing a weather website featuring a captivating, user-friendly interface that sets it apart from the competition, while delivering precise and reliable weather data.
-
-
-
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![Uploading Add a heading.png…]()
 
 ## Features
 

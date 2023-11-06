@@ -28,7 +28,7 @@ let Location = async () =>
     console.log("c =" + c)
    //  try
    //  {
-    let promise = await fetch(`http://api.ipstack.com/${c}?access_key=d484765a518d8c4b49b4db7215150531`)
+    let promise = await fetch(`http://api.ipstack.com/${c}?access_key={get your api key}`)
     let response = await promise.json()
     console.log(response)
     get(response.city)
